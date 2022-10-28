@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Sign up</title>
+    <link href="signup.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>SIGN UP</h1>
+    </header>
+    <form method="get" action="loginpage.html">
+      <div>
+        <input
+          type="fname"
+          name="fname"
+          id=""
+          placeholder="First Name"
+          required
+        />
+      </div>
+
+      <div>
+        <input
+          type="lname"
+          name="lname"
+          id=""
+          placeholder="Last Name"
+          required
+        />
+      </div>
+      <div>
+        <input
+          type="tel"
+          name="telNO"
+          id=""
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}-[0-9]{3}"
+          placeholder="Phone: 234-813-2543-454"
+          required
+        />
+      </div>
+      <div>
+        <input type="email" id="" placeholder="Email" required />
+      </div>
+      <div>
+        <select name="gender">
+          <option value="Select Gender">Select Gender</option>
+          <option value="Female">Female</option>
+          <option value="Male">Male</option>
+        </select>
+      </div>
+      <div>
+        <input type="date" name="dob" id="" min="1995-01-01" required />
+      </div>
+      <div>
+        <input type="color" name="color" />
+      </div>
+      <div style="padding-top: 30px">
+        <input
+          type="submit"
+          value="SUBMIT"
+          style="
+            width: 150px;
+            height: 25px;
+            border-radius: 50px;
+            font-weight: bolder;
+          "
+        />
+      </div>
+    </form>
+  </body>
+</html>
